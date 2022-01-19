@@ -1,0 +1,32 @@
+div{
+    /* ESTE E UM COMENTARIO EM CSS*/
+    width:400px;
+    height: 400px;
+    background-color: orange;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  
+    margin: 80px; /*assume sempre o última margem - por hierarquia*/
+}
+
+/*DEFINIR CLASS EM CSS*/
+.par{
+    background-color: red;
+}
+
+.par p{
+    background-color: palegreen;
+}
+p{
+    font-size: 18px;
+    margin: 0;
+
+    
+}
+
+.par p span{
+    width: 10px;
+    background-color: lightblue;
+}
